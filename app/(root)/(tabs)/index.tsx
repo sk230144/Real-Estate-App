@@ -10,11 +10,9 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <View className="items-center justify-center">
-        <Text className="text-xl font-bold text-blue-500">
+        <Text className="font-bold text-blue-500 font-rubik text-3xl">
           Welcome to Nativewind!
         </Text>
-      </View>
       <Link className="text-xl font-bold text-blue-500" href='/sign-in'>Sign In</Link>
     </View>
   );    
