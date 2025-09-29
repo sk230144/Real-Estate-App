@@ -1,7 +1,7 @@
 import React, { createContext, useContext, ReactNode } from "react";
 
 import { getCurrentUser } from "./appwrite";
-import { useAppwrite } from "./useAppWrite";
+import { useAppwrite } from "./useAppwrite";
 
 interface GlobalContextType {
   isLogged: boolean;
@@ -33,6 +33,7 @@ export const GlobalProvider = ({ children }: GlobalProviderProps) => {
   });
 
   const isLogged = !!user;
+
 
   return (
     <GlobalContext.Provider

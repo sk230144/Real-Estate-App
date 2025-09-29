@@ -13,7 +13,6 @@ export default function Index() {
         <Text className="font-bold text-blue-500 font-rubik text-3xl">
           Welcome to Nativewind!
         </Text>
-      <Link className="text-xl font-bold text-blue-500" href='/sign-in'>Sign In</Link>
     </View>
   );    
 }
